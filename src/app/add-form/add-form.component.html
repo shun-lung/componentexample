@@ -1,0 +1,9 @@
+<p> ---- add-form.component--</p>
+
+<h6> {{ todtoText }} </h6>
+ <input type="text" [value]="todtoText" (input)="changeTodoText($event)" [placeholder]="placeholderText"> 
+ <button (click)="delTodo($event)"> clear </button>
+ <!-- <input type="text" [(ngModel)]="todtoText" [placeholder]="placeholderText">
+<button (click)="addTodo($event)">add </button> -->
+
+<p>--------end------</p>
